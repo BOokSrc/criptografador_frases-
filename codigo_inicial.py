@@ -22,6 +22,8 @@ def pegar_cotacoes():
     #print(texto)
 
 #Início da Janela
+print('start')
+print('status')
 janela = Tk()
 janela.title("Quotes")
 janela.geometry("210x200")
@@ -38,3 +40,4 @@ texto_cotações.grid(column=0, row=2,padx=10, pady=10)
 
 janela.mainloop()
 #Final da Janela
+
