@@ -23,16 +23,16 @@ def pegar_cotacoes():
 
 #Início da Janela
 print('start')
-print('status')
 janela = Tk()
-janela.title("Quotes")
-janela.geometry("210x200")
+janela.title("Cotações")
+janela.geometry("230x200")
 
-texto_orientação = Label( janela, text = "Click the button to view the quotes" )
+texto_orientação = Label( janela, text = "Clique no botão para ver as cotações" )
 texto_orientação.grid( column=0, row=0, padx=10, pady=10)
 
-botao = Button( janela, text = "Search Quotes", command=pegar_cotacoes )
+botao = Button( janela, text = "Procurar Cotações", command=pegar_cotacoes )
 botao.grid( column = 0, row = 1,padx=10, pady=10 )
+
 
 
 texto_cotações = Label(janela, text="")
